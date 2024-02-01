@@ -1,0 +1,11 @@
+{
+"burger":{"name":"Burger", "price":$4.99, "emoji":"🍔"}
+"fries":{"name":"Burger", "price":$1.49, "emoji":"🍔"}
+"hotdog":{"name":"Burger", "price":$3.49, "emoji":"🍔"}
+"tako":{"name":"Burger", "price":$3.99, "emoji":"🍔"}
+"pizza":{"name":"Burger", "price":$7.99, "emoji":"🍔"}
+"donut":{"name":"Burger", "price":$1.49, "emoji":"🍔"}
+"popcorn":{"name":"Burger", "price":$1.99, "emoji":"🍔"}
+"coke":{"name":"Burger", "price":$1.49, "emoji":"🍔"}
+"cake":{"name":"Burger", "price":$10.99, "emoji":"🍔"}
+}
