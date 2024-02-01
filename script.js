@@ -1,6 +1,6 @@
 let tg = window.Telegram.WebApp;
 async function getItems(){
-  let items = await fetch('./items.json');
+  var items = await fetch('./items.json');
   
 }
 let itemsDiv = document.getElementById("items");
