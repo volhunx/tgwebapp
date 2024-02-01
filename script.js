@@ -1,5 +1,5 @@
 let tg = window.Telegram.WebApp;
-var items = JSON.parse(fetch('./items.json'));
+var itemsJSON = fetch('./items.json');
 let itemsDiv = document.getElementById("items");
 itemsDiv.innerHTML = "items div";
 tg.expand();
