@@ -1,5 +1,6 @@
 let tg = window.Telegram.WebApp;
-let items = fetch('./items.json').json();
+let response = await fetch('./items.json');
+let items = await response.json();
 let itemsDiv = document.getElementById("items");
 itemsDiv.innerHTML = items;
 tg.expand();
