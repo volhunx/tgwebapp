@@ -1,8 +1,7 @@
 let tg = window.Telegram.WebApp;
-let itemsJSON = fetch('./items.json');
-let itemsObj = JSON.parse(itemsJSON);
+let items = fetch('./items.json').json();
 let itemsDiv = document.getElementById("items");
-itemsDiv.innerHTML = itemsObj;
+itemsDiv.innerHTML = items;
 tg.expand();
 
 tg.MainButton.textColor = '#FFFFFF';
