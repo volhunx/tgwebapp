@@ -1,10 +1,10 @@
 let tg = window.Telegram.WebApp;
 async function getItems(){
-  var items = await fetch('./items.json');
-  
+  let items = await fetch('./items.json');
+  return items;
 }
 let itemsDiv = document.getElementById("items");
-itemsDiv.innerHTML = items;
+itemsDiv.innerHTML = getItems();
 tg.expand();
 
 tg.MainButton.textColor = '#FFFFFF';
