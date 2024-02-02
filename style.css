@@ -32,6 +32,7 @@ body {
   font-size: 18px;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  white-space: nowrap;
 }
 
 .item-emoji {
