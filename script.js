@@ -20,7 +20,7 @@ async function addItems() {
     itemDiv.className = "item";
     itemDiv.innerHTML = `
       <div class="item-emoji">${value.emoji}</div>
-      <div class="item-info">${value.name} · ${value.price}</div>
+      <div class="item-info">${value.name} · <b>${value.price}</b></div>
       <button class="item-button" data-item="${key}">Add</button>
     `;
     itemsDiv.appendChild(itemDiv);
