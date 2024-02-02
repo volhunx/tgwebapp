@@ -5,43 +5,43 @@
     "emoji": "🍔"
   },
   "fries": {
-    "name": "Burger",
+    "name": "Fries",
     "price": "$1.49",
-    "emoji": "🍔"
+    "emoji": "🍟"
   },
   "hotdog": {
-    "name": "Burger",
+    "name": "Hotdog",
     "price": "$3.49",
-    "emoji": "🍔"
+    "emoji": "🌭"
   },
-  "tako": {
-    "name": "Burger",
-    "price": "$3.99",
-    "emoji": "🍔"
+  "cookie": {
+    "name": "Cookie",
+    "price": "$0.99",
+    "emoji": "🍪"
   },
   "pizza": {
-    "name": "Burger",
+    "name": "Pizza",
     "price": "$7.99",
-    "emoji": "🍔"
+    "emoji": "🍕"
   },
   "donut": {
-    "name": "Burger",
+    "name": "Donut",
     "price": "$1.49",
-    "emoji": "🍔"
+    "emoji": "🍩"
   },
   "popcorn": {
-    "name": "Burger",
+    "name": "Popcorn",
     "price": "$1.99",
-    "emoji": "🍔"
+    "emoji": "🍿"
   },
   "coke": {
-    "name": "Burger",
+    "name": "Coke",
     "price": "$1.49",
-    "emoji": "🍔"
+    "emoji": "🥤"
   },
   "cake": {
-    "name": "Burger",
+    "name": "Cake",
     "price": "$10.99",
-    "emoji": "🍔"
+    "emoji": "🍰"
   }
 }
